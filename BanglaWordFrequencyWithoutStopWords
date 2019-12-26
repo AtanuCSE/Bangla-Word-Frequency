@@ -1,0 +1,35 @@
+from collections import Counter
+import re , string
+
+# Read lines from file
+brokenLines = []
+with open("BanglaPara.txt", 'r', encoding='utf-8') as file:
+    readLineFromFile = file.read()
+
+    lines = readLineFromFile.split("\n")
+    for line in lines:
+        if len(line) > 0 and line[0] != '#':
+            # Punctuation Removal
+            line = re.sub('[%s]' % re.escape(string.punctuation), '', line)
+            line = line.replace("।", "")
+            if line not in brokenLines:
+                brokenLines.append(line)
+    file.close()
+
+
+print(brokenLines)
+s = " "
+s = s.join(brokenLines)
+counter = Counter(s.split())
+
+# Load stop words
+with open("stopwords.txt", 'r', encoding='utf-8') as stopWordFile:
+    readStopWordsFromFile = stopWordFile.read()
+    stopWordArray = readStopWordsFromFile.split()
+
+
+# Sort Dictionary
+for k in sorted(counter, key=counter.get, reverse=True):
+    if k not in stopWordArray:
+        print(k + " = " + str(counter[k]))
+
