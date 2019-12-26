@@ -9,7 +9,8 @@ with open("BanglaPara.txt",'r',encoding='utf-8') as file:
 #    print(readLineFromFile)
     lines = readLineFromFile.split("\n")
     for line in lines:
-        if len(line) > 0 and line[0] != '#':
+        if len(line) > 0:
+#           Punctuation Removal 
             line = re.sub('[%s]' % re.escape(string.punctuation), '', line)
             if line not in brokenLines:
                 brokenLines.append(line)
