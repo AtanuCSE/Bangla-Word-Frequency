@@ -1,6 +1,7 @@
 from collections import Counter
 import re, string
 
+#Read From File
 brokenLines = []
 with open("BanglaPara.txt",'r',encoding='utf-8') as file:
     readLineFromFile = file.read()
@@ -15,13 +16,12 @@ with open("BanglaPara.txt",'r',encoding='utf-8') as file:
 
 
 print(brokenLines)
+#Count Frequency
 s = " "
 s = s.join(brokenLines)
 counter = Counter(s.split())
 
-#for x in counter:
-#    print(x + " = " + str(counter[x]))
-
+#Sort the dictionary
 for k in sorted(counter, key=counter.get, reverse=True):
     print(k + " = " + str(counter[k]))
 
