@@ -27,7 +27,7 @@ Output with stop words:
 ভাগ = 1
 থামি = 1
 পড়তেই = 1
-ভালোবাসে। = 1
+ভালোবাসে = 1
 তবে = 1
 বর্ষা = 1
 এলেই = 1
@@ -65,7 +65,7 @@ Output with stop words:
 খুব = 1
 ব্যস্ত = 1
 পার = 1
-করে। = 1
+করে = 1
 পায়ে = 1
 বুট = 1
 জুতো = 1
@@ -94,7 +94,7 @@ Output with stop words:
 কর্মে = 1
 কিছুটা = 1
 পরিবর্তন = 1
-এসেছে। = 1
+এসেছে = 1
 ছেলেটা = 1
 প্রতিদিন = 1
 জল = 1
@@ -123,7 +123,7 @@ Output with stop words:
 হয়ে = 1
 চলল = 1
 যোগ = 1
-দিতে। = 1
+দিতে = 1
 
 Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 সময় = 3
@@ -138,7 +138,7 @@ Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 ভাগ = 1
 থামি = 1
 পড়তেই = 1
-ভালোবাসে। = 1
+ভালোবাসে = 1
 বর্ষা = 1
 এলেই = 1
 রঙের = 1
@@ -160,7 +160,7 @@ Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 টুরিস্ট = 1
 বলার = 1
 ভুল = 1
-করবেনা। = 1
+করবেনা = 1
 এসময় = 1
 দূর = 1
 দুরান্তের = 1
@@ -179,7 +179,7 @@ Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 মাথায় = 1
 গোলাকার = 1
 একখানা = 1
-হ্যট। = 1
+হ্যট = 1
 পিঠে = 1
 ঝোলানো = 1
 ট্র্যাভেল = 1
@@ -189,11 +189,11 @@ Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 লাঠি = 1
 সম্বল = 1
 বেড়িয়ে = 1
-পরে। = 1
+পরে = 1
 কর্মে = 1
 কিছুটা = 1
 পরিবর্তন = 1
-এসেছে। = 1
+এসেছে = 1
 ছেলেটা = 1
 প্রতিদিন = 1
 জল = 1
