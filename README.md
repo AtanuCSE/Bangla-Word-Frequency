@@ -125,7 +125,7 @@ Output with stop words:
 যোগ = 1
 দিতে। = 1
 
-Output without Bangla Stop Words: (Stop words taken from rank.nl)
+Output without Bangla Stop Words: (Stop words taken from ranks.nl)
 সময় = 3
 নীল = 2
 দেয় = 2
